@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./exercicios/bot-start.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "moment": "^2.29.3",
     "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16",
     "telegraf": "3.17.3"
   }
 }
