@@ -1,2 +1,8 @@
-*node_modules
-.env
+ .DS_Store
+    .env-dev
+    .env-prod
+    node_modules/
+    package-lock.json
+    package.json
+    .env-*
+    .gitignore
